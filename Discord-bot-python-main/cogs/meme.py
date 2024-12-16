@@ -13,9 +13,9 @@ class Meme(commands.Cog):
 
     @commands.command(pass_context=True)
     async def dank(self,ctx):
-        '''
-        Posts a Dankmeme from r/Dankmemes
-        '''
+        # '''
+        # Posts a Dankmeme from r/Dankmemes
+        # '''
         embed = discord.Embed(title="From r/Dankmemes")
 
         async with aiohttp.ClientSession() as cs:
@@ -30,9 +30,9 @@ class Meme(commands.Cog):
 
     @commands.command(pass_context=True)
     async def meme(self,ctx):
-        '''
-        Posts a Meme from r/memes
-        '''
+        # '''
+        # Posts a Meme from r/memes
+        # '''
         embed = discord.Embed(title="From r/memes")
 
         async with aiohttp.ClientSession() as cs:
